@@ -132,7 +132,7 @@ If subsequent mounts are needed, as stated above you can do the following while 
   ### Findings
   I was able to load in around 1 million+ rows of data from the api this is was about 10% of the total dataset. This was still good enough to pull out some interesting observations/plots as seen below.
   - The Average Payment,Fine and Penalty amount over the last decade
-  ![](2021-03-27-14-17-05.png)
+  ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-26-17-16-04.png)
 
 <br />
 
