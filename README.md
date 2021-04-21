@@ -117,6 +117,7 @@ If subsequent mounts are needed, as stated above you can do the following while 
 
    Once that is complete you should see something similar to 
 ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-27-13-21-07.png) 
+
   From, here you can access your elasticsearch endpoint as well as your kibana link for this elasticsearch domain. If you  click on the kibana link you will be brought to a page where you must sign in with the master user and password you defined when setting up the domain.
   <br />
 
