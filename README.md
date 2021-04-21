@@ -81,6 +81,7 @@ Assuming you have properly configured your EC2 instance and have ssh into it we 
   ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-26-16-12-07.png)
  
    To build a docker image named bigdata1:1.0 we run the following command in the terminal: 
+   
     ``` docker build -t bigdata1:1.0 . ```
    
    <br />
