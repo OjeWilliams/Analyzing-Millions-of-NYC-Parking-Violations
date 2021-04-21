@@ -76,7 +76,7 @@ Assuming you have properly configured your EC2 instance and have ssh into it we 
 - [x] Build Docker Image
   
 
-  In order to build a docker image we first need to ensure that we have created a Dockerfile. A docker file is a text document that contains all the command line arguments needed to assemble the image. We can also create a requirements.txt file that conatins all the python packages required to run the project. For this project the following Dockerfile was used ![](2021-03-26-16-12-07.png)
+  In order to build a docker image we first need to ensure that we have created a Dockerfile. A docker file is a text document that contains all the command line arguments needed to assemble the image. We can also create a requirements.txt file that conatins all the python packages required to run the project. For this project the following Dockerfile was used ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-26-16-12-07.png)
  
    To build a docker image named bigdata1:1.0 we run the following command in the terminal: 
     ``` docker build -t bigdata1:1.0 . ```
@@ -113,17 +113,17 @@ If subsequent mounts are needed, as stated above you can do the following while 
    <br />
 
    Once that is complete you should see something similar to 
-![](2021-03-27-13-21-07.png) 
+![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-27-13-21-07.png) 
   From, here you can access your elasticsearch endpoint as well as your kibana link for this elasticsearch domain. If you  click on the kibana link you will be brought to a page where you must sign in with the master user and password you defined when setting up the domain.
   <br />
 
 - [x] Create Index pattern and plots for Kibana Dashboard <br />
  Once signed in you should be brought to the following page where you must select connect to your Elasticsearch index
- ![](2021-03-27-13-38-06.png)
+ ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-27-13-38-06.png)
  Then create index pattern
- ![](2021-03-27-13-40-43.png)
+ ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-27-13-40-43.png)
  Then search for your index (bigdata1 in my case) and click next step
- ![](2021-03-27-13-42-24.png)
+ ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-27-13-42-24.png)
 
  If you had a date field that was properly formatted you will be prompted to select it, if not you can proceed. To create plots in Kibana check this official [documentation](https://www.elastic.co/guide/en/kibana/current/xpack-graph.html) and subsequently to create a kibana dashboard check [here](https://www.elastic.co/guide/en/kibana/current/dashboard.html).
  
@@ -132,12 +132,12 @@ If subsequent mounts are needed, as stated above you can do the following while 
   ### Findings
   I was able to load in around 1 million+ rows of data from the api this is was about 10% of the total dataset. This was still good enough to pull out some interesting observations/plots as seen below.
   - The Average Payment,Fine and Penalty amount over the last decade
-  ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-26-17-16-04.png)
+  ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-27-14-17-05.png)
 
 <br />
 
   - The Top 50 Parking Violations Wordcloud
-  ![](2021-03-27-14-19-50.png)
+  ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/Word%20cloud%20of%20top%2050%20violation.png)
   <br />
   <br />  
 
