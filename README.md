@@ -50,7 +50,7 @@ Assuming you have properly configured your EC2 instance and have ssh into it we 
    -  ```maps.py was created``` - contains the mappings needed when creating an index for elasticsearch 
    -   ```file es_helper.py``` provided by my instructor to handle exceptions when running the script using python requests module.
    <br /> 
-   <br />  
+
 
   
 - [x] Ensure that your secret values are set as environment variables 
