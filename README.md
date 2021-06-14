@@ -77,7 +77,8 @@ Assuming you have properly configured your EC2 instance and have ssh into it we 
 - [x] Build Docker Image
   
 
-  In order to build a docker image we first need to ensure that we have created a Dockerfile. A docker file is a text document that contains all the command line arguments needed to assemble the image. We can also create a requirements.txt file that conatins all the python packages required to run the project. For this project the following Dockerfile was used
+  In order to build a docker image we first need to ensure that we have created a Dockerfile. A docker file is a text document that contains all the command line arguments needed to assemble the image. We can also create a requirements.txt file that conatins all the python packages required to run the project. For this project the following Dockerfile was used <br />
+  
   ![](https://github.com/OjeWilliams/Analyzing-Millions-of-NYC-Parking-Violations/blob/main/assets/2021-03-26-16-12-07.png)
  
    To build a docker image named bigdata1:1.0 we run the following command in the terminal: 
